@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Set Property system variable and target -->
+<project name="basic ant" default="info" basedir="">
+	<property name="websitename" value="www.google.com"/>
+	<target name="info">
+		<echo>Apache Ant version is ${ant.file} - you are at ${websitename}</echo>
+	</target>
+</project>

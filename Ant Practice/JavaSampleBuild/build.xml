@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="test" default="compile">
+	<path id="build.classpath">
+		<fileset dir="lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+	<target name="init">
+		<property name="sourceDir" value="src"/>
+		<property name="outputDir" value="classes"/>
+	</target>
+	<target name="clean" depends="init">
+		<deltree dir="${outputDir}"/>
+	</target>
+	<target name="prepare" depends="clean">
+		<mkdir dir="${outputDir}"/>
+	</target>
+	<target name="compile" depends="prepare">
+		<path id="runtime.path">
+			<fileset dir="${classpath.property}" includes="*.jar"/>
+		</path>
+		<javac includeantruntime="false" srcdir="${sourceDir}" destdir="${outputDir}" classpathref="build.classpath"/>
+	</target>
+</project>

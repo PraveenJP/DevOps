@@ -1,0 +1,12 @@
+ANT Notes
+===============
+ANT Basics:
+-----------
+ANT - Another Neat Tool
+Java based open source tool by Apache SF
+Used to automate build and deployment process in software development
+Written in plain XML, hence learning very easy
+can be run command line in any OS
+Typically ANT runs a build file, usually names build.xml
+A build file is composed of one or targest that need to be invoked
+Ant has inbuild libraries called "tasks" that makes easier to write script
