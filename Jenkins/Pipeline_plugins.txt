@@ -1,0 +1,19 @@
+Setup Pipeline
+---------------
+
+Step 1: Create  3 jobs like build, deploy and test
+
+Step 2: Setup pipeline in paper for me build > deploy > test > production deploy
+
+Step 3: Set Build Trigger section > Check the Build after other projects are built on deploy, test and production deploy
+
+Step 4: Run the Build job thats it. if you want view install the below mentioned plugins
+
+Pipeline plugins
+----------------------------
+Plugin
+	- Delivery Pipeline Plugin
+	- Build Pipeline Plugin
+
+Blue Ocean Plugin is user interface for represent the Jenkins in new way.
+
