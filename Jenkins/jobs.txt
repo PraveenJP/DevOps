@@ -1,0 +1,41 @@
+Jobs in Jenkins
+=======================
+
+Step 1: Click new item to create the job
+
+It Contains:
+	- General
+	- Source Code Management
+	- Build Triggers
+	- Build
+	- Post Build Actions
+
+General:
+	- It contains project details and build configurations
+
+Source Code Management:
+	- It is part of grap code from git or SVN
+
+Build Triggers:
+	- To trgger the some operations after the build or before the build
+	- Time based trigger build
+
+Build Environment:
+	- Setup some environment configuration.
+
+Build
+	- Add excutable command line
+
+Post Build Action
+	- Configuration after the build if required
+
+Step 2: Trigger build Remotely
+	- In Build trigger their is remote trigger
+	- Add the token name in this example I used RemoteJK
+		Eg:http://localhost:8080/job/SonarQube%20Test/
+
+Step 3: How to chain the Job
+	- Goto project configuration > Build Trigger section > Check the Build after other projects are built (Like Watch) > Enter the project name
+		build?token=RemoteJK
+
+	- Post Build Action > Build Other project > Enter the project name

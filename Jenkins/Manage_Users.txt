@@ -1,0 +1,25 @@
+Manage Users
+=================
+
+Step 1: Create new user
+
+Step 2: Manage Jenkins > Manage Users > Create User
+
+Step 3: Configure the users
+
+Step 4: Click profile on top right coner and click configuration. ans setup what ever you want.
+
+Setp 5: Create and Manage Roles
+	-Install Role strategy plugin
+
+Step 6: Enable role based access: Manage jenkins > Configure global security 
+
+Step 7: Manage Role: Manage Jenkins > Manage and Assign Roles
+
+Step 8: Click the Manage roles
+	- Create Global Role
+	- Project Role
+
+Step 9: Click Assign Role
+	- Assign Global Role for the users
+	- Assing Item Role for the users

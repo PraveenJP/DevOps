@@ -1,0 +1,23 @@
+1. Introduction and Getting Started
+--------------------------------------
+Jenkins
+	- java application
+	- Used for continuous Integration and Continuous delivery
+
+Installation
+1. Download Jenkins
+	Official Website
+	if windows download .msi file or war file for windows or mac
+
+2. If Windows directly install msi file it will setup jenkins and start server as well :)
+
+3. Other OS place the war inany location
+
+4. run the war file in commmand prompt
+	java -jar jenkins.war
+
+5. Once command progressed it will return a password copy it
+
+6. goto browser - http://localhost:8080
+
+7. First time it ask security password whih you have copied already paste it in input and then start jenkins.

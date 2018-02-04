@@ -1,0 +1,16 @@
+Why use Jenkins CLI?
+------------------------
+	-Easier
+	-Faster
+	-Memory management
+	-Continuous integration
+
+Step 1: Start Jenkins
+
+Step 2: Goto manage jenkins > Configure Global Security > Enable security
+
+Step 3: goto http://localhost:8080/cli
+
+Step 4: download the Jenkin-cli.jar in that page.
+
+Step 5: java -jar jenkins-cli.jar -s http://localhost:8080/ help --username VAL --password VAL

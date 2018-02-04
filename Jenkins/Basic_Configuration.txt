@@ -1,0 +1,5 @@
+Basic Configuration in Jenkins
+----------------------------------
+Step 1: Manage jenkins > Configure System
+
+Setp 2: Setup the basic configuration

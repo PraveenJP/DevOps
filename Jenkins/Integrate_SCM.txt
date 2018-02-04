@@ -1,0 +1,5 @@
+Integrate SCM with Jenkins and run when Commit
+===============================================
+Step 1: Create a Sample Jobs in jenkins
+
+Step 2:
