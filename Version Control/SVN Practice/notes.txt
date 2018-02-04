@@ -1,0 +1,37 @@
+Tortoise SVN
+===============
+Open Source version control
+Which manage the files and directories over time in a central repository
+
+Features:
+----------------
+Shell Integration
+Icon Overlays
+Graphical Interface
+Easy access to Subversion Commands
+
+Git Vs SVN
+--------------
+Git and SVN are version control systems. Both are better than no version control system so you win no matter which you choose. There are some important differences between Git and SVN which might make one more suitable for your type of project than the other. It’s not a question of which is better, but which is best suited for your situation and development process.
+
+SVN is easier to use than Git
+-------------------------------
+SVN has been around longer. There are tons of tools available which make using it easier for non-technical users. SVN error messages make more sense. If the version control system will be used by managers, graphic designers or other non-developers, SVN is a better choice. With TortoiseSVN anybody tech-savvy enough to browse for files can easily use SVN. Git has a much higher learning curve than SVN.
+
+Why is Git so popular if it’s harder to use?
+------------------------------------------------
+Git is the new kid on the block, SVN is old-school. Don’t get me wrong, Git deserves it’s popularity. Git is fast and excellent for managing large open source projects with many collaborators. While branching is possible with SVN, branching and merging is what Git was built to do. Git may be harder to learn, but once you do learn how to use Git, you’ll find it to be very feature rich and functional. Another huge advantage to Git is the GitHub website which makes programming a social activity. GitHub lets you connect with and follow other developers, sort of like Facebook for software developers. It makes coding more fun, and even makes it possible for less technical people to take part in the development process.
+
+What is the main difference between Git and SVN?
+------------------------------------------------------
+Subversion offers a centralized model whereas Git offers a decentralized model. What does this mean? With git, everyone has their own copy of the entire repository. Basically, everyone is always working on their own branch and functional code can later be merged into the master. With SVN, everyone has a working copy and changes are committed to a central repository. To work on a branch a user must copy the trunk into another directory and then merge it back when complete.
+
+Why are you using Git for Battle City?
+-------------------------------------------
+Battle City is an open source multiplayer game. It’s a big project which I hope will grow to have many developers from all around the world. So why not create an SVN repository for Battle City? In my experience, Git better manages the chaos involved with an open source project that has many collaborators contributing random bits of code. SVN is better suited for a more structured development process, where tasks are defined and the team knows who is working on what.
+
+Git allows any developer to sit down, get a copy of the Battle City repository, and then just start messing around with whatever they feel like. Eventually, once the developer is ready to share their changes, they can push their code their own branch of Battle City. GitHub makes it possible to easily track and follow other branches, and eventually, good changes in a branch can be merged into the master. In my experience, Git with GitHub will make managing user contributions and maintaining a master version much easier than SVN.
+
+Reference: 
+http://software-engineer-training.com/git-vs-svn-which-is-better/
+https://git.wiki.kernel.org/index.php/GitSvnComparsion
