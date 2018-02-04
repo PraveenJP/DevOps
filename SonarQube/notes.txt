@@ -1,0 +1,26 @@
+SonarQube
+===========
+
+Basically is Code analyser tool.
+
+Download Sonar:
+-----------------
+Download from offical website www.sonarqube.org
+
+Start the Sonar Server:
+--------------------------
+cd path of bin folder
+sonar start
+sonar status
+sonar stop
+
+Install plugin in Jenkins
+----------------------------
+In Manage Jenkins install the Sonarqube Plugin
+
+Once installed successfully then configure the Sonarqube server in configure system.
+
+Create a New Job in Jenkins
+-----------------------------
+1. Check the Sonar Scanner Environment
+2. Add Sonarqube in build action and set properties
