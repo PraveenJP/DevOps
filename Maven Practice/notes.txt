@@ -1,0 +1,37 @@
+Maven Notes
+===============
+Maven only supports Java.
+
+Maven project management tool that help build life cycle.
+ 
+Modal based build
+1.Jar
+2.War
+3.Metadata
+
+Manage dependency when build time.
+
+Plugin Development
+
+Auto Parent Versoning
+
+Release Management
+
+Distribution publication
+
+Life Cycle
+--------------
+Sourcecode(app/unit) > Compile app > Compile Unit > Run Unit > package > run
+1) Default
+2) Clean
+3) Site
+
+Phases of Maven
+----------------
+
+1) Validate - Check for dependencies, then it downloads lib and keep it in your local rep (pom.xml)
+2) Compile -  Compile the source code
+3) Test-Compile - Compile unit test
+4) Test -  Execution of unit test
+5) Package - Prepare jar/war
+6) Install -  Once jar is ready, if you want push to remote. First of all put in local rep(.m2)
