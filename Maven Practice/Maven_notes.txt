@@ -1,0 +1,12 @@
+what is maven?
+Maven is project management tool and java application management tool.
+ - Java project has no of dependencies
+ - To manage the all dependencies
+ - Build the jar and war file
+ - Deploy to environment
+Ant is build tool and write code manually but maven no need to do that.
+
+Maven Beginner
+What is the power of maven?
+POM - Project Object Module
+Build Lifecycle
